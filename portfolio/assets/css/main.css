@@ -238,12 +238,22 @@ header .active {
   transition: 0.5s all ease-in-out;
   position: relative;
   border-radius: 10px;
-  background:linear-gradient(145deg, #131520, #1c1f30);;
+  background: linear-gradient(145deg, #131520, #1c1f30);
+  ;
   /* box-shadow: 10px 10px 19px #1c1e22, */
   /* -10px -10px 19px #262a2e; */
   position: relative;
   z-index: 1;
   height: 100%;
+}
+
+.about-box .a-b-c-title h4 {
+  font-family: var(--color-primary);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  color: var(--color-lightn);
 }
 
 /*====================== about Section End  ==========================*/
