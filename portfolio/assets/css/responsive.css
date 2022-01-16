@@ -98,54 +98,14 @@
         padding: 0 !important;
     }
 
-    #social {
-        margin-left: -56px;
-    }
-
-    #social li {
-        margin-left: 5px !important;
-    }
-
-    #social .border {
-        width: 40px !important;
-        height: 40px !important;
-    }
+  
 
     #particles-js {
         height: 675px;
     }
 
     /* about */
-    #about {
-        padding: 5em 0 2em 0 !important;
-    }
-
-    .item .about-box {
-        width: 200px !important;
-        height: 150px !important;
-        margin: 0 0 0 5.8rem !important;
-    }
-
-    .about-box .about-box-icon {
-        padding: 0 0 1em 5em;
-    }
-
-    .about-box .about-box-icon img {
-        width: 50px !important;
-
-    }
-
-    .about-box .about-box-title>h3 {
-        font-size: 20px;
-    }
-
-    .global-title {
-        padding: 0 !important;
-    }
-
-    .global-title h2 {
-        font-size: 35px;
-    }
+   
 
     /* services section */
     #services {
@@ -287,16 +247,6 @@
         font-size: 16px !important;
     }
 
-    .banner-content-button .btn-outline-danger {
-        padding: 8px 12px !important;
-        font-size: 14px;
-    }
-
-    .banner-content-button .btn-danger {
-        padding: 8px 12px !important;
-        font-size: 14px;
-    }
-
     .banner-img {
         margin-left: 3rem;
     }
@@ -324,18 +274,6 @@
         padding: 0 !important;
     }
 
-    #social {
-        margin-left: -56px;
-    }
-
-    #social li {
-        margin-left: 5px !important;
-    }
-
-    #social .border {
-        width: 45px !important;
-        height: 45px !important;
-    }
 
     #particles-js {
         height: 500px;
@@ -422,18 +360,7 @@
     }
 
 
-    #social {
-        margin-left: -56px;
-    }
 
-    #social li {
-        margin-left: 5px !important;
-    }
-
-    #social .border {
-        width: 40px !important;
-        height: 40px !important;
-    }
 
     .banner-title h1 {
         font-size: 55px !important;

@@ -32,24 +32,19 @@
               <p>Mohammad Ismail</p>
             </div>
             <div class="banner-social-section">
-              <div id="social">
-                <ul>
-                  <li class="facebook">
-                    <button class="border"><i class="fab fa-facebook"></i></button>
-                  </li>
-
-                  <li class="twitter">
-                    <button class="border"><i class="fab fa-twitter"></i></button>
-                  </li>
-
-                  <li class="instagram">
-                    <button class="border"><i class="fab fa-instagram"></i></button>
-                  </li>
-
-                  <li class="dribbble">
-                    <button class="border"><i class="fab fa-dribbble"></i></button>
-                  </li>
-                </ul>
+              <div class="middle ml-1">          
+                <a class="btn2" href="https://www.facebook.com/xyz/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn3" href="https://twitter.com/xyz">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a class="btn4" href="https://snapchat.com/add/xyz">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <a class="btn5" href="https://www.instagram.com/xyz/">
+                  <i class="fab fa-skype"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -59,109 +54,26 @@
   </section>
   <!-- End Banner Section -->
   <!-- About -->
-  <section id="about">
-    <div class="container-fluid my-5">
-      <div class="row justify-content-center">
-        <div class="col-md-8 ">
-          <div class="global-title">
-            <h2> About me and my expertise</h2>
-          </div>
-          <div class="global-content">
-            <p>I specialise in crafting beautiftul bespoke websites using WordPress & Shopify. When it comes to
-              marketing I’ve got your back with my expertise in SEO, Google Analytics and other tools to get you noticed
-              and shine online.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-10 m-auto mt-5">
-          <div class="owl-carousel owl-about owl-theme mt-2">
-
-            <div class="item">
-              <div class="about-box text-center">
-                <div class="about-box-icon">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/WordPress-Logo-Free-Download-PNG.png" alt="">
-                </div>
-                <div class="about-box-title">
-                  <h3>Elementor</h3>
-                </div>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="about-box text-center">
-                <div class="about-box-icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/WordPress-Logo-Free-Download-PNG.png" alt="">
-                </div>
-                <div class="about-box-title">
-                  <h3>Elementor</h3>
-                </div>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="about-box text-center">
-                <div class="about-box-icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/WordPress-Logo-Free-Download-PNG.png" alt="">
-                </div>
-                <div class="about-box-title">
-                  <h3>Elementor</h3>
-                </div>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="about-box text-center">
-                <div class="about-box-icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/WordPress-Logo-Free-Download-PNG.png" alt="">
-                </div>
-                <div class="about-box-title">
-                  <h3>Elementor</h3>
-                </div>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="about-box text-center">
-                <div class="about-box-icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/WordPress-Logo-Free-Download-PNG.png" alt="">
-                </div>
-                <div class="about-box-title">
-                  <h3>Elementor</h3>
-                </div>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="about-box text-center">
-                <div class="about-box-icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/WordPress-Logo-Free-Download-PNG.png" alt="">
-                </div>
-                <div class="about-box-title">
-                  <h3>Elementor</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-10 m-auto mt-5 ">
-          <div class="row">
-            <div class="col-md-4 text-center">
-              <h1 class="wpCount"></h1>
-            </div>
-            <div class="col-md-4 text-center">
-              <h1 class="uiUxCount"></h1>
-            </div>
-            <div class="col-md-4 text-center">
-              <h1 class="yrsCount"></h1>
-            </div>
-          </div>
-        </div> 
-      </div>
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row">
+     <div class="col-sm-12 col-md-6 col-lg-4">
+       <div class="about-box">
+         <div class="about-box-inner">
+           <div class="a-box-ic"><i class="fa fa-bars" style="color: #fff;" aria-hidden="true"></i></div>
+           <div class="a-box-content">
+             <div class="a-b-c-title"><h4 style="color: #fff;">Business Strategy</h4></div>
+             <div class="a-b-c-des"><p>I throw myself down among the tall grass by the stream as I lie close to the earth.</p></div>
+             <div class="a-b-c-read-more-btn">
+               <a href=""><span class="iconify" data-icon="feather:arrow-right" style="color: #f9004d;" data-width="32"></span></a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
     </div>
-
-  </section>
-  <!-- End About -->
+  </div>
+</section>
   <!-- Services Section -->
   <section id="services">
     <div class="container">
@@ -199,7 +111,7 @@
       </div>
     </div>
   </section>
-  <!-- Services Section End -->
+
   <!-- Latest Project -->
   <section id="latest-project">
     <div class="container">
@@ -250,7 +162,7 @@
     </div>
     </div>
   </section>
-  <!-- Latest Project End -->
+
   <!-- Testimonial Start -->
   <section id="testimonial">
     <div class="container">
@@ -307,10 +219,9 @@
       </div>
     </div>
   </section>
-  <!-- Testimonial End -->
+
 
   <!-- Contact Section -->
-
   <section class="h-100 ">
     <div class="container py-5 h-100">
       <div class="row">

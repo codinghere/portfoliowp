@@ -10,6 +10,7 @@ body {
   box-sizing: border-box;
   font-family: 'Nunito Sans', sans-serif;
 }
+
 p,
 a {
   font-weight: 400;
@@ -131,7 +132,7 @@ header .active {
   color: #BB2D3B !important;
 }
 
-/* scroll stuf */
+/* scroll stuff */
 .scroll-down header {
   transition: 0.5s;
   display: none;
@@ -205,388 +206,44 @@ header .active {
 }
 
 .banner-img img {
-  padding: 0 0 0 15rem;
-  width: 95%;
-  transition: .3s;
-  animation: up-down linear 4s;
+  padding: 0 0 0 12rem;
+  width: 90%;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
-  transform-origin: 50% 50%;
-  -webkit-animation: up-down linear 4s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-transform-origin: 50% 50%;
-  -moz-animation: up-down linear 4s;
-  -moz-animation-iteration-count: infinite;
-  -moz-transform-origin: 50% 50%;
-  -o-animation: up-down linear 4s;
-  -o-animation-iteration-count: infinite;
-  -o-transform-origin: 50% 50%;
-  -ms-animation: up-down linear 4s;
-  -ms-animation-iteration-count: infinite;
-  -ms-transform-origin: 50% 50%;
-
+  transform-origin: bottom;
+  animation-name: img-keyframe;
+  animation-timing-function: ease;
 }
+
 .banner-img p {
-  margin: 0 0 0 10rem;
-  padding: 2rem 0;
+  margin: 0 0 0 9rem;
+  /* padding: 2rem 0; */
   text-align: center;
   font-size: 25px;
-}
-
-/* banner image  keyframe*/
-
-@keyframes up-down {
-  0% {
-    transform: translate(1px, 20px);
-  }
-
-  24% {
-    transform: translate(1px, 30px);
-  }
-
-  50% {
-    transform: translate(1px, 12px);
-  }
-
-  74% {
-    transform: translate(1px, 22px);
-  }
-
-  100% {
-    transform: translate(1px, 22px);
-  }
-}
-
-@-moz-keyframes up-down {
-  0% {
-    -moz-transform: translate(1px, 20px);
-  }
-
-  24% {
-    -moz-transform: translate(1px, 30px);
-  }
-
-  50% {
-    -moz-transform: translate(1px, 12px);
-  }
-
-  74% {
-    -moz-transform: translate(1px, 22px);
-  }
-
-  100% {
-    -moz-transform: translate(1px, 22px);
-  }
-}
-
-@-webkit-keyframes up-down {
-  0% {
-    -webkit-transform: translate(1px, 20px);
-  }
-
-  24% {
-    -webkit-transform: translate(1px, 30px);
-  }
-
-  50% {
-    -webkit-transform: translate(1px, 12px);
-  }
-
-  74% {
-    -webkit-transform: translate(1px, 22px);
-  }
-
-  100% {
-    -webkit-transform: translate(1px, 22px);
-  }
-}
-
-@-o-keyframes up-down {
-  0% {
-    -o-transform: translate(1px, 20px);
-  }
-
-  24% {
-    -o-transform: translate(1px, 30px);
-  }
-
-  50% {
-    -o-transform: translate(1px, 12px);
-  }
-
-  74% {
-    -o-transform: translate(1px, 22px);
-  }
-
-  100% {
-    -o-transform: translate(1px, 22px);
-  }
-}
-
-@-ms-keyframes up-down {
-  0% {
-    -ms-transform: translate(1px, 20px);
-  }
-
-  24% {
-    -ms-transform: translate(1px, 30px);
-  }
-
-  50% {
-    -ms-transform: translate(1px, 12px);
-  }
-
-  74% {
-    -ms-transform: translate(1px, 22px);
-  }
-
-  100% {
-    -ms-transform: translate(1px, 22px);
-  }
-}
-
-.banner-content-button .btn-outline-danger {
-  padding: 8px 30px;
-  transition: .3s;
-}
-
-.banner-content-button .btn-danger {
-  padding: 8px 30px;
-  transition: .3s;
-}
-
-.banner-content-button .btn-outline-danger:hover,
-.banner-content-button .btn-danger:hover {
-  transform: translateY(-8px);
 }
 
 /* social icon */
 .banner-social-section {
-  padding: 0 0 0 8rem;
+  padding: 0 0 0 9rem;
 }
 
-#social ul {
-  text-align: center;
 
-}
-
-#social li {
-  display: inline-block;
-  list-style-type: none;
-  margin-left: 30px;
-}
-
-/** Facebook **/
-
-.facebook {
-  width: 50px;
-  height: 50px;
-
-}
-
-.facebook .border {
-  background: transparent;
-  outline: none;
-  color: #fff;
-  width: 50px;
-  height: 50px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transition: all .2s ease-in-out;
-  line-height: 2px;
-  background: #3b5998;
-}
-
-.facebook .border:hover {
-  background: #3b5998;
-  border-color: #436aaf;
-  color: rgba(255, 255, 255, 0.9);
-  transform: scale(1.2);
-}
-
-.fa.fa-facebook {
-  font-size: 25px;
-}
-
-/** Twitter **/
-.twitter {
-  width: 50px;
-  height: 50px;
-}
-.twitter .border {
-  background: transparent;
-  outline: none;
-  background: #00aced;
-  color: #fff;
-  width: 50px;
-  height: 50px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transition: all .2s ease-in-out;
-}
-.twitter .border:hover {
-  border-color: #72c6e6;
-  color: rgba(255, 255, 255, 0.9);
-  transform: scale(1.2);
-}
-.fa.fa-twitter {
-  font-size: 25px;
-}
-
-/** Instagram **/
-.instagram {
-  width: 50px;
-  height: 50px;
-}
-
-.instagram .border {
-  background: transparent;
-  outline: none;
-  color: #8a3ab9;
-  width: 50px;
-  height: 50px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transition: all .2s ease-in-out;
-  background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
-}
-.instagram .border:hover {
-  border-color: #7495af;
-  color: rgba(255, 255, 255, 0.9);
-  transform: scale(1.2);
-}
-
-.fa.fa-instagram {
-  font-size: 25px;
-}
-
-/** dribbble **/
-.dribbble {
-  width: 50px;
-  height: 50px;
-}
-.dribbble .border {
-  background: transparent;
-  outline: none;
-  color: #fff;
-  background: #ea4c89;
-
-  width: 50px;
-  height: 50px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transition: all .2s ease-in-out;
-}
-
-.dribbble .border:hover {
-  border-color: #ff78ac;
-  color: rgba(255, 255, 255, 0.9);
-  transform: scale(1.2);
-}
-
-.fa.fa-dribbble {
-  font-size: 25px;
-}
-
-#social ul li {
-  transition: ease .3s;
-}
-
-#social ul:hover>li {
-  opacity: 0.5;
-}
-
-#social ul:hover>li:hover {
-  opacity: 1;
-}
 
 /* =================== Banner End  ===================*/
 
 /* About Section */
-#about {
-  padding: 10em 0 2em 0;
-  /* background: red; */
-}
-
-.carousel-item {
-  margin-left: 10px !important;
-}
-
-.global-title {
-  padding: 0 10rem;
-  line-height: 1;
-  text-align: center;
-}
-
-.global-content {
-  text-align: center;
-  padding: 1em 2em;
-}
-
-#about .about-content>p {
-  letter-spacing: 0.5px;
-}
-
-#about .owl-theme .owl-dots {
-  margin-top: 50px !important;
-}
-
-#about .owl-theme .owl-dots .owl-dot span {
-  width: 30px;
-  height: 4px;
-  border-radius: 0 !important;
-  background: #BB2D3B !important;
-  transition: 0.5s;
-}
-
-#about .owl-theme .owl-dots .owl-dot.active span {
-  background: #fff !important;
-
-
-
-}
-
-#about .owl-theme .owl-dots .owl-dot span:hover {
-  width: 40px;
-}
-
 .about-box {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 2em 0;
-  width: 250px;
-  height: 200px;
-  margin: 0 1em;
-  transition: .4s;
-  border: 1px solid #273FB8;
-}
-
-.about-box:hover {
-  border: 1px solid #BB2D3B;
-  cursor: pointer;
-}
-
-.about-box .about-box-icon {
-  width: 100%;
-  text-align: center;
-  padding: 0 0 1em 5em;
-
-}
-
-.about-box .about-box-icon img {
-  width: 100px;
-}
-
-.about-box .about-box-title>h3 {
-  color: #fff;
+  text-align: left;
+  padding: 35px 50px 35px 50px;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  border-radius: 10px;
+  background:linear-gradient(145deg, #131520, #1c1f30);;
+  /* box-shadow: 10px 10px 19px #1c1e22, */
+  /* -10px -10px 19px #262a2e; */
+  position: relative;
+  z-index: 1;
+  height: 100%;
 }
 
 /*====================== about Section End  ==========================*/
@@ -1325,18 +982,21 @@ input {
     padding: 50px 40px;
   }
 }
+
 /* Contact Section button */
-:root{
-	--facebook:#3c5a99;
-	--twitter:#1da1f2;
-	--skype:#00aff0;
-	--whatsapp:#25D366;
+:root {
+  --facebook: #3c5a99;
+  --twitter: #1da1f2;
+  --skype: #00aff0;
+  --whatsapp: #25D366;
 }
-.middle{
-text-align: center
+
+.middle {
+  text-align: center
 }
+
 /* button facebook */
-.middle .btn2{
+.middle .btn2 {
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -1347,27 +1007,30 @@ text-align: center
   color: var(--facebook);
   overflow: hidden;
   position: relative;
-  
+
 }
-.middle a.btn2:hover{
-	transform: scale(1.3);
+
+.middle a.btn2:hover {
+  transform: scale(1.3);
   background: var(--facebook);
   color: #fff;
 
 }
-.middle .btn2 i{
-	line-height: 50px;
+
+.middle .btn2 i {
+  line-height: 50px;
   font-size: 20px;
   transition: 0.2s linear;
-  
+
 }
-.middle .btn2:hover i{
-	transform: scale(1.3);
-	color: #f1f1f1;
+
+.middle .btn2:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
 }
 
 /* button twitter */
-.middle .btn3{
+.middle .btn3 {
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -1378,26 +1041,30 @@ text-align: center
   color: var(--twitter);
   overflow: hidden;
   position: relative;
-  
+
 }
-.middle a.btn3:hover{
-	transform: scale(1.3);
+
+.middle a.btn3:hover {
+  transform: scale(1.3);
   background: var(--twitter);
   color: #fff;
 
 }
-.middle .btn3 i{
-	line-height: 50px;
-    font-size: 20px;
-    transition: 0.2s linear;
-    
+
+.middle .btn3 i {
+  line-height: 50px;
+  font-size: 20px;
+  transition: 0.2s linear;
+
 }
-.middle .btn3:hover i{
-	transform: scale(1.3);
-	color: #f1f1f1;
+
+.middle .btn3:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
 }
+
 /* button whatsapp */
-.middle .btn4{
+.middle .btn4 {
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -1408,26 +1075,30 @@ text-align: center
   color: var(--whatsapp);
   overflow: hidden;
   position: relative;
-  
+
 }
-.middle a.btn4:hover{
-	transform: scale(1.3);
+
+.middle a.btn4:hover {
+  transform: scale(1.3);
   background: var(--whatsapp);
   color: #fff;
 
 }
-.middle .btn4 i{
-	line-height: 50px;
-    font-size: 20px;
-    transition: 0.2s linear;
-    
+
+.middle .btn4 i {
+  line-height: 50px;
+  font-size: 20px;
+  transition: 0.2s linear;
+
 }
-.middle .btn4:hover i{
-	transform: scale(1.3);
-	color: #f1f1f1;
+
+.middle .btn4:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
 }
+
 /* button skype */
-.middle .btn5{
+.middle .btn5 {
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -1438,23 +1109,26 @@ text-align: center
   color: var(--skype);
   overflow: hidden;
   position: relative;
-  
+
 }
-.middle a.btn5:hover{
-	transform: scale(1.3);
+
+.middle a.btn5:hover {
+  transform: scale(1.3);
   background: var(--skype);
   color: #fff;
 
 }
-.middle .btn5 i{
-	line-height: 50px;
-    font-size: 20px;
-    transition: 0.2s linear;
-    
+
+.middle .btn5 i {
+  line-height: 50px;
+  font-size: 20px;
+  transition: 0.2s linear;
+
 }
-.middle .btn5:hover i{
-	transform: scale(1.3);
-	color: #f1f1f1;
+
+.middle .btn5:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
 }
 
 
@@ -1463,8 +1137,7 @@ text-align: center
 
 /* Footer Start */
 
-.new_footer_area {
-}
+.new_footer_area {}
 
 
 .new_footer_top {
@@ -1689,9 +1362,3 @@ button:focus {
 }
 
 /*================= Footer End =========================*/
-
-
-
-
-
-
